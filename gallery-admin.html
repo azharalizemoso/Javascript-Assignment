@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gallery Admin</title>
+        <meta charset="UTF-8">
+        <!-- <link rel="stylesheet" href="./resources/adminstyle.css"> -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    </head>
+
+
+    <body>
+        <div>
+            <h1>Add/Edit Image</h1>
+            <form id="addImg">
+                <label for="imgName">Image Name</label>
+                <input type="text" id="imgName" placeholder="Image Name..">
+                <label for="imgUrl">Image URL</label>
+                <input type="text" id="imgUrl" placeholder="Image URL..">
+                <label for="imgInfo">Image Info</label>
+                <input type="text" id="imgInfo" placeholder="Image Info..">
+                <label for="imgDate">Upload Date</label>
+                <input type="text" id="imgDate" placeholder="Image Date..">
+                <input type="submit" id="add" value="Submit">
+            </form>
+            <h1>Delete Image</h1>
+            <form id="delImg">
+                <label for="delImgName">Image Name</label>
+                <input type="text" id="delImgName" placeholder="Image Name..">
+                <input type="submit" id="del" value="Submit">
+            </form>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+        <script src="./resources/admin.js"></script>
+    </body>
+</html>
